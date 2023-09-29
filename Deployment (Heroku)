@@ -1,0 +1,4 @@
+web: node server.js
+heroku create your-weather-app-name
+git push heroku master
+heroku open
