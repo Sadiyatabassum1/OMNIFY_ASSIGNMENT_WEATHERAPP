@@ -1,0 +1,4 @@
+heroku login
+web: node server.js
+heroku config:set ENV_VARIABLE_NAME=your_value
+git push heroku master
